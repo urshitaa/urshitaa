@@ -23,8 +23,6 @@
 <h1 align="center">Hi 👋, I'm Urshitaa</h1>
 <h3 align="center">A passionate AI/ML developer from Rajpura, Punjab</h3>
 
-
-- 🌱 Learning **DSA**
   
 - 🔭 Working on Machine Learning
   
