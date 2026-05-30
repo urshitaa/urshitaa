@@ -1,71 +1,138 @@
-###
-<div align="center">
-  <img src="https://raw.githubusercontent.com/urshitaa/urshitaa/main/banner.svg" width="100%" />
-</div>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/urshitaachopra/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.youtube.com/@ScholarsShilpa" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
-  </a>
-  <a href="https://t.me/urshitaa" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="telegram logo"  />
-  </a>
-  <a href="urshitaa16@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
-  </a>
+
+<img src="https://raw.githubusercontent.com/urshitaa/urshitaa/main/banner.svg" width="100%" />
+
+<br/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=32&duration=3000&pause=1000&color=00FF66&center=true&vCenter=true&width=900&lines=AI+Engineer;Building+Jarvis;Building+Money+Heist+Universe;Agentic+AI+Developer;Creating+Futuristic+Experiences" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Focus-Agentic%20AI-00FF66?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Frontend-Cinematic_UI-39FF14?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Backend-RealTime_Systems-00C853?style=for-the-badge"/>
+
+
 </div>
 
-###
-<h1 align="center">Hi 👋, I'm Urshitaa</h1>
-<h3 align="center">A passionate AI/ML developer from Rajpura, Punjab</h3>
+---
 
-  
-- 🔭 Working on Machine Learning
-  
-- 👯 Looking to collaborate on [AI/ML projects and web development](https://github.com/urshitaa/Thapar-Mini-Projects.git)
-  
-- 👨‍💻 Some of my projects are available at [https://github.com/urshitaa](https://github.com/urshitaa)
-  
-- 💬 Ask me about **DSA and AI/ML**
-  
-- 📫 How to reach me **urshitaachopra@gmail.com**
-###
+# 🚀 Currently Working On
 
-<h3 align="left">🛠 Language and tools</h3>
+- 🤖 Building **Jarvis** — an AI assistant with automation & agentic workflows
+- 🎬 Developing **Money Heist Universe**
+- 🧠 Exploring **local AI models** using Ollama
+- ⚡ Creating cinematic interfaces using **Next.js + Framer Motion**
+- 🌌 Designing futuristic web experiences inspired by sci-fi films
 
-###
+---
+
+# 🛠 Tech Stack
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="55" alt="c logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="55" alt="cplusplus logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="55" alt="java logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="55" alt="python logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="55" alt="numpy logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="55" alt="pandas logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="55" alt="tensorflow logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="55" alt="opencv logo"  />
-  <img width="13" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="55" alt="pytorch logo"  />
+
+## Frontend
+
+<img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,redux,figma" />
+
+---
+
+## Backend
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,postgres,mongodb,redis" />
+
+---
+
+## AI / ML
+
+<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+
+---
+
+## Tools & Platforms
+
+<img src="https://skillicons.dev/icons?i=git,github,docker,postman,aws,vercel,vscode" />
+
 </div>
 
-###
-<!--
-<h3 align="left">🔥   Connect with me</h3>
-<p align="center">
-<a href="https://linkedin.com/in/urshitaachopra" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="urshitaachopra" height="30" width="40" /></a>
-<a href="https://kaggle.com/urshitaa1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="urshitaa1" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/@scholarsshilpa" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@scholarsshilpa" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/urshitaa16" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="urshitaa16" height="30" width="40" /></a>
-</p>
---> 
-###
+---
+
+# 🌟 Featured Projects
+
+<div align="center">
+
+## 🤖 Jarvis
+
+### AI Assistant with Agentic Workflows & Automation
+
+</div>
+
+### Features
+
+- 🎙 Voice Interaction
+- ⚡ Real-Time Communication
+- 🧠 AI Memory
+- 📅 Smart Reminders
+- 🌐 Browser Automation
+- 🔥 Local AI Integration
+- 🤖 Autonomous Workflows
+
+---
+
+<div align="center">
+
+## 🎬 Money Heist Universe
+
+### Cinematic & Immersive Web Experience
+
+</div>
+
+### Features
+
+- 🌌 Cinematic Animations
+- ⚡ Interactive UI
+- 🎨 Futuristic Design System
+- 🎥 Story Driven Experience
+- 🔥 Smooth Motion Effects
+
+---
+
+# 🌐 Connect With Me
+
+<div align="center">
+
+<a href="https://linkedin.com/in/urshitaa16">
+<img src="https://skillicons.dev/icons?i=linkedin" />
+</a>
+
+<a href="mailto:urshitaachopra@gmail.com">
+<img src="https://img.shields.io/badge/Email-00FF66?style=for-the-badge&logo=gmail&logoColor=black"/>
+</a>
+
+<a href="https://github.com/urshitaa">
+<img src="https://img.shields.io/badge/GitHub-00FF66?style=for-the-badge&logo=github&logoColor=black"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### ⚡ Fun Fact
+
+🎠 I still love cartoons, swings, and building things that feel magical.
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=urshitaa&label=Profile%20Views&color=00ff66&style=flat" />
+
+</div>
