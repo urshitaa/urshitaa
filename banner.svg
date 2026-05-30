@@ -2,22 +2,13 @@
 
   <defs>
 
-    <!-- Glow -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Brain Glow -->
+    <!-- Brain Gradient -->
     <radialGradient id="brainGradient" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00ff66"/>
+      <stop offset="0%" stop-color="#00ff88"/>
       <stop offset="100%" stop-color="#003311"/>
     </radialGradient>
 
-    <!-- Portal Glow -->
+    <!-- Portal Gradient -->
     <radialGradient id="portalGradient">
       <stop offset="0%" stop-color="#00ff88"/>
       <stop offset="100%" stop-color="#001a0d"/>
@@ -28,264 +19,348 @@
   <!-- Background -->
   <rect width="1400" height="500" fill="black"/>
 
-  <!-- Left Text -->
-  <text x="70" y="120"
-        fill="#00ff66"
+  <!-- Decorative Orb -->
+  <circle cx="30" cy="20" r="80"
+          fill="#00ff66"
+          fill-opacity="0.2"
+          stroke="#00ff66"
+          stroke-width="3"/>
+
+  <path d="M0 70 Q20 20 0 0"
+        stroke="#00ff66"
+        stroke-width="2"/>
+
+  <path d="M40 50 Q30 0 0 -20"
+        stroke="#00ff66"
+        stroke-width="2"/>
+
+  <!-- LEFT TEXT -->
+
+  <text x="70"
+        y="110"
+        fill="#00ff88"
         font-size="34"
-        font-family="Poppins"
-        letter-spacing="5">
+        font-family="Arial"
+        letter-spacing="4">
     Hello World
   </text>
 
-  <text x="70" y="220"
+  <text x="70"
+        y="210"
         fill="#00ff66"
-        font-size="110"
+        font-size="90"
         font-weight="700"
-        font-family="Poppins"
-        filter="url(#glow)">
+        font-family="Arial">
     Urshitaa
   </text>
 
-  <text x="75" y="290"
+  <text x="75"
+        y="280"
         fill="white"
-        font-size="45"
+        font-size="44"
         font-weight="700"
-        font-family="Poppins">
+        font-family="Arial">
     AI/ML ENGINEER
   </text>
 
-  <!-- Progress Text -->
-  <text x="70" y="410"
-        fill="#00ff66"
-        font-size="30"
-        font-family="Poppins">
+  <!-- Building Text -->
+  <text x="70"
+        y="390"
+        fill="#00ff88"
+        font-size="28"
+        font-family="Arial">
     Building the future ...
   </text>
 
   <!-- Progress Bar -->
-  <rect x="70" y="440" width="450" height="30" rx="15"
-        fill="#003311"
+  <rect x="70"
+        y="420"
+        width="420"
+        height="24"
+        rx="12"
+        fill="#02210f"
         stroke="#00ff66"
         stroke-width="2"/>
 
-  <rect x="70" y="440" width="360" height="30" rx="15"
+  <rect x="70"
+        y="420"
+        width="320"
+        height="24"
+        rx="12"
         fill="#00ff66">
+
     <animate attributeName="width"
-             values="100;360;100"
+             values="120;320;120"
              dur="4s"
              repeatCount="indefinite"/>
   </rect>
 
-  <text x="540" y="463"
+  <text x="510"
+        y="440"
         fill="#00ff66"
         font-size="28"
-        font-family="Poppins">
+        font-family="Arial"
+        font-weight="700">
     90%
   </text>
 
-  <!-- Rotating Brain -->
-  <g transform="translate(800 200)">
-    
+  <!-- CENTER ENERGY BEAM -->
+
+  <g transform="translate(700 120)">
+
+    <!-- Main Beam -->
+    <rect x="0"
+          y="0"
+          width="14"
+          height="200"
+          rx="8"
+          fill="#00ff88">
+
+      <animate attributeName="opacity"
+               values="0.3;1;0.3"
+               dur="1.5s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Glow -->
+    <rect x="-8"
+          y="0"
+          width="30"
+          height="200"
+          rx="15"
+          fill="#00ff88"
+          opacity="0.12">
+
+      <animate attributeName="opacity"
+               values="0.04;0.2;0.04"
+               dur="1.5s"
+               repeatCount="indefinite"/>
+    </rect>
+
+  </g>
+
+  <!-- ROTATING BRAIN -->
+
+  <g transform="translate(760 170)">
+
     <animateTransform
       attributeName="transform"
       type="rotate"
       from="0 0 0"
       to="360 0 0"
-      dur="12s"
+      dur="14s"
       repeatCount="indefinite"/>
 
     <path d="
-      M-120,-20
-      C-150,-100 -60,-160 20,-140
-      C120,-180 200,-80 170,20
-      C200,120 120,180 10,150
-      C-100,190 -180,100 -150,10
+      M-110,-10
+      C-150,-90 -70,-150 10,-130
+      C120,-170 190,-70 160,10
+      C190,120 110,170 0,140
+      C-90,180 -170,100 -140,0
       Z"
       fill="url(#brainGradient)"
       stroke="#00ff66"
-      stroke-width="4"
-      filter="url(#glow)"/>
+      stroke-width="4"/>
 
     <!-- Brain Lines -->
-    <path d="M-90 -20 C-30 -80 20 -60 70 -10"
+    <path d="M-80 -20 C-20 -70 30 -50 80 0"
           stroke="#00ff66"
           stroke-width="3"
           fill="none"/>
 
-    <path d="M-60 50 C10 10 70 30 100 80"
+    <path d="M-60 40 C0 0 60 20 100 70"
           stroke="#00ff66"
           stroke-width="3"
           fill="none"/>
 
-    <path d="M-30 -90 C20 -20 60 -30 110 20"
+    <path d="M-20 -80 C30 -10 70 -10 110 40"
           stroke="#00ff66"
           stroke-width="3"
           fill="none"/>
 
   </g>
 
-  <!-- Revolving Portal -->
-  <g transform="translate(820 410)">
-    
+  <!-- PORTAL -->
+
+  <g transform="translate(760 400)">
+
     <animateTransform
       attributeName="transform"
       type="rotate"
       from="0 0 0"
       to="-360 0 0"
-      dur="5s"
+      dur="6s"
       repeatCount="indefinite"/>
 
     <!-- Rings -->
-    <ellipse rx="100" ry="35"
+    <ellipse rx="90"
+             ry="30"
              fill="url(#portalGradient)"
              stroke="#00ff66"
-             stroke-width="3"
-             filter="url(#glow)"/>
+             stroke-width="3"/>
 
-    <ellipse rx="70" ry="22"
+    <ellipse rx="65"
+             ry="20"
              fill="none"
              stroke="#00ff66"
              stroke-width="2"/>
 
-    <ellipse rx="40" ry="12"
+    <ellipse rx="35"
+             ry="10"
              fill="none"
              stroke="#00ff66"
              stroke-width="2"/>
 
   </g>
 
-  <!-- Portal Light -->
-  <g>
-    <line x1="820" y1="390" x2="820" y2="250"
-          stroke="#00ff66"
-          stroke-width="4"
-          opacity="0.8">
+  <!-- RIGHT HUD PANEL -->
+
+  <g transform="translate(980 80)">
+
+    <!-- Main HUD -->
+    <rect width="320"
+          height="320"
+          rx="24"
+          fill="#041b12"
+          stroke="#00ff88"
+          stroke-width="2"/>
+
+    <!-- Glow Border -->
+    <rect width="320"
+          height="320"
+          rx="24"
+          fill="none"
+          stroke="#00ff88"
+          stroke-opacity="0.25"
+          stroke-width="8"/>
+
+    <!-- Header -->
+    <text x="35"
+          y="55"
+          fill="#00ff88"
+          font-size="34"
+          font-family="Arial"
+          font-weight="700">
+      WHAT I DO
+    </text>
+
+    <!-- Divider -->
+    <line x1="30"
+          y1="75"
+          x2="280"
+          y2="75"
+          stroke="#00ff88"
+          stroke-width="2"/>
+
+    <!-- Skill 1 -->
+    <rect x="28"
+          y="95"
+          width="250"
+          height="42"
+          rx="10"
+          fill="#06281a"/>
+
+    <circle cx="48"
+            cy="116"
+            r="6"
+            fill="#00ff66">
 
       <animate attributeName="opacity"
-               values="0.2;1;0.2"
-               dur="2s"
+               values="1;0.2;1"
+               dur="1s"
                repeatCount="indefinite"/>
-    </line>
-  </g>
+    </circle>
 
-  <!-- RIGHT SIDE CYBER PANEL -->
+    <text x="68"
+          y="123"
+          fill="white"
+          font-size="18"
+          font-family="Arial">
+      Machine Learning
+    </text>
 
-<g transform="translate(1060 120)">
+    <!-- Skill 2 -->
+    <rect x="28"
+          y="150"
+          width="250"
+          height="42"
+          rx="10"
+          fill="#06281a"/>
 
-  <!-- Outer Card -->
-  <rect width="250"
-        height="280"
-        rx="20"
-        fill="#03141f"
-        stroke="#00ff88"
-        stroke-width="2"/>
+    <circle cx="48"
+            cy="171"
+            r="6"
+            fill="#00ff66">
 
-  <!-- Top Heading -->
-  <text x="30"
-        y="45"
-        fill="#00ff88"
-        font-size="28"
-        font-family="Arial"
-        font-weight="700">
-    SYSTEM STATUS
-  </text>
+      <animate attributeName="opacity"
+               values="1;0.2;1"
+               dur="1.4s"
+               repeatCount="indefinite"/>
+    </circle>
 
-  <!-- Divider -->
-  <line x1="25"
-        y1="65"
-        x2="220"
-        y2="65"
-        stroke="#00ff88"
-        stroke-width="1"/>
+    <text x="68"
+          y="178"
+          fill="white"
+          font-size="18"
+          font-family="Arial">
+      Deep Learning
+    </text>
 
-  <!-- Status Items -->
+    <!-- Skill 3 -->
+    <rect x="28"
+          y="205"
+          width="250"
+          height="42"
+          rx="10"
+          fill="#06281a"/>
 
-  <!-- AI -->
-  <circle cx="35" cy="100" r="7" fill="#00ff66">
-    <animate attributeName="opacity"
-             values="1;0.2;1"
-             dur="1s"
-             repeatCount="indefinite"/>
-  </circle>
+    <circle cx="48"
+            cy="226"
+            r="6"
+            fill="#00ff66">
 
-  <text x="55"
-        y="106"
-        fill="white"
-        font-size="18"
-        font-family="monospace">
-    AI CORE ACTIVE
-  </text>
+      <animate attributeName="opacity"
+               values="1;0.2;1"
+               dur="0.8s"
+               repeatCount="indefinite"/>
+    </circle>
 
-  <!-- Neural -->
-  <circle cx="35" cy="145" r="7" fill="#00d9ff">
-    <animate attributeName="opacity"
-             values="1;0.2;1"
-             dur="1.5s"
-             repeatCount="indefinite"/>
-  </circle>
+    <text x="68"
+          y="233"
+          fill="white"
+          font-size="18"
+          font-family="Arial">
+      Data Science
+    </text>
 
-  <text x="55"
-        y="151"
-        fill="white"
-        font-size="18"
-        font-family="monospace">
-    NEURAL ONLINE
-  </text>
+    <!-- Skill 4 -->
+    <rect x="28"
+          y="260"
+          width="250"
+          height="42"
+          rx="10"
+          fill="#06281a"/>
 
-  <!-- Learning -->
-  <circle cx="35" cy="190" r="7" fill="#00ff66">
-    <animate attributeName="opacity"
-             values="1;0.2;1"
-             dur="0.8s"
-             repeatCount="indefinite"/>
-  </circle>
+    <circle cx="48"
+            cy="281"
+            r="6"
+            fill="#00ff66">
 
-  <text x="55"
-        y="196"
-        fill="white"
-        font-size="18"
-        font-family="monospace">
-    LEARNING MODE
-  </text>
+      <animate attributeName="opacity"
+               values="1;0.2;1"
+               dur="1.2s"
+               repeatCount="indefinite"/>
+    </circle>
 
-  <!-- Deploy -->
-  <circle cx="35" cy="235" r="7" fill="#00d9ff">
-    <animate attributeName="opacity"
-             values="1;0.2;1"
-             dur="1.2s"
-             repeatCount="indefinite"/>
-  </circle>
-
-  <text x="55"
-        y="241"
-        fill="white"
-        font-size="18"
-        font-family="monospace">
-    DEPLOY READY
-  </text>
-
-  <!-- Bottom Energy Line -->
-  <rect x="25"
-        y="255"
-        width="190"
-        height="8"
-        rx="4"
-        fill="#012a1a"/>
-
-  <rect x="25"
-        y="255"
-        width="120"
-        height="8"
-        rx="4"
-        fill="#00ff88">
-
-    <animate attributeName="width"
-             values="40;190;40"
-             dur="3s"
-             repeatCount="indefinite"/>
-  </rect>
-
+    <text x="68"
+          y="288"
+          fill="white"
+          font-size="18"
+          font-family="Arial">
+      Web Development
+    </text>
 
   </g>
 
 </svg>
+```
