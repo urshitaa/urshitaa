@@ -105,20 +105,25 @@
 
 ---
 
+
 # 🌐 Connect With Me
 
 <div align="center">
 
 <a href="https://linkedin.com/in/urshitaa16">
-<img src="https://skillicons.dev/icons?i=linkedin" />
+  <img src="https://img.shields.io/badge/LinkedIn-00FF66?style=for-the-badge&logo=linkedin&logoColor=black" />
+</a>
+
+<a href="https://portfolio-urshitaa.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-00FF66?style=for-the-badge&logo=vercel&logoColor=black" />
 </a>
 
 <a href="mailto:urshitaachopra@gmail.com">
-<img src="https://img.shields.io/badge/Email-00FF66?style=for-the-badge&logo=gmail&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Email-00FF66?style=for-the-badge&logo=gmail&logoColor=black" />
 </a>
 
 <a href="https://github.com/urshitaa">
-<img src="https://img.shields.io/badge/GitHub-00FF66?style=for-the-badge&logo=github&logoColor=black"/>
+  <img src="https://img.shields.io/badge/GitHub-00FF66?style=for-the-badge&logo=github&logoColor=black" />
 </a>
 
 </div>
