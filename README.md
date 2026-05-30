@@ -1,7 +1,3 @@
-<div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
-</div>
-
 ###
 <div align="center">
   <img src="https://raw.githubusercontent.com/urshitaa/urshitaa/main/banner.svg" width="100%" />
