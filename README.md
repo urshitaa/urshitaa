@@ -4,7 +4,7 @@
 
 ###
 <div align="center">
-  <img src="./banner.svg" width="100%" />
+  <img src="https://raw.githubusercontent.com/urshitaa/urshitaa/main/banner.svg" width="100%" />
 </div>
 
 <div align="center">
