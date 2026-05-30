@@ -168,33 +168,124 @@
     </line>
   </g>
 
-  <!-- Right Side -->
-  <text x="1120" y="140"
-        fill="white"
-        font-size="36"
-        letter-spacing="6"
-        font-family="Poppins">
-    What I do
+  <!-- RIGHT SIDE CYBER PANEL -->
+
+<g transform="translate(1060 120)">
+
+  <!-- Outer Card -->
+  <rect width="250"
+        height="280"
+        rx="20"
+        fill="#03141f"
+        stroke="#00ff88"
+        stroke-width="2"/>
+
+  <!-- Top Heading -->
+  <text x="30"
+        y="45"
+        fill="#00ff88"
+        font-size="28"
+        font-family="Arial"
+        font-weight="700">
+    SYSTEM STATUS
   </text>
 
-  <!-- Skills -->
-  <g fill="#00ff66" font-family="Poppins" font-size="24">
+  <!-- Divider -->
+  <line x1="25"
+        y1="65"
+        x2="220"
+        y2="65"
+        stroke="#00ff88"
+        stroke-width="1"/>
 
-    <circle cx="1140" cy="200" r="18" fill="#00ff66"/>
-    <text x="1132" y="208" fill="black">✓</text>
-    <text x="1180" y="208" fill="white">Machine Learning</text>
+  <!-- Status Items -->
 
-    <circle cx="1140" cy="270" r="18" fill="#00ff66"/>
-    <text x="1132" y="278" fill="black">✓</text>
-    <text x="1180" y="278" fill="white">Deep Learning</text>
+  <!-- AI -->
+  <circle cx="35" cy="100" r="7" fill="#00ff66">
+    <animate attributeName="opacity"
+             values="1;0.2;1"
+             dur="1s"
+             repeatCount="indefinite"/>
+  </circle>
 
-    <circle cx="1140" cy="340" r="18" fill="#00ff66"/>
-    <text x="1132" y="348" fill="black">✓</text>
-    <text x="1180" y="348" fill="white">Data Science</text>
+  <text x="55"
+        y="106"
+        fill="white"
+        font-size="18"
+        font-family="monospace">
+    AI CORE ACTIVE
+  </text>
 
-    <circle cx="1140" cy="410" r="18" fill="#00ff66"/>
-    <text x="1132" y="418" fill="black">✓</text>
-    <text x="1180" y="418" fill="white">Web Development</text>
+  <!-- Neural -->
+  <circle cx="35" cy="145" r="7" fill="#00d9ff">
+    <animate attributeName="opacity"
+             values="1;0.2;1"
+             dur="1.5s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <text x="55"
+        y="151"
+        fill="white"
+        font-size="18"
+        font-family="monospace">
+    NEURAL ONLINE
+  </text>
+
+  <!-- Learning -->
+  <circle cx="35" cy="190" r="7" fill="#00ff66">
+    <animate attributeName="opacity"
+             values="1;0.2;1"
+             dur="0.8s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <text x="55"
+        y="196"
+        fill="white"
+        font-size="18"
+        font-family="monospace">
+    LEARNING MODE
+  </text>
+
+  <!-- Deploy -->
+  <circle cx="35" cy="235" r="7" fill="#00d9ff">
+    <animate attributeName="opacity"
+             values="1;0.2;1"
+             dur="1.2s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <text x="55"
+        y="241"
+        fill="white"
+        font-size="18"
+        font-family="monospace">
+    DEPLOY READY
+  </text>
+
+  <!-- Bottom Energy Line -->
+  <rect x="25"
+        y="255"
+        width="190"
+        height="8"
+        rx="4"
+        fill="#012a1a"/>
+
+  <rect x="25"
+        y="255"
+        width="120"
+        height="8"
+        rx="4"
+        fill="#00ff88">
+
+    <animate attributeName="width"
+             values="40;190;40"
+             dur="3s"
+             repeatCount="indefinite"/>
+  </rect>
+
+</g>
 
   </g>
 
