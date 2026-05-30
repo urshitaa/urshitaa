@@ -3,6 +3,9 @@
 </div>
 
 ###
+<div align="center">
+  <img src="./banner.svg" width="100%" />
+</div>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/urshitaachopra/" target="_blank">
