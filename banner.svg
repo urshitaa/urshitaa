@@ -1,0 +1,107 @@
+<!-- REPLACE THE OLD 90% SECTION WITH THIS -->
+
+<!-- Animated Terminal Box -->
+<g transform="translate(70 320)">
+
+  <!-- Terminal Background -->
+  <rect width="320"
+        height="120"
+        rx="10"
+        fill="#02111f"
+        stroke="#00aaff"
+        stroke-width="2"/>
+
+  <!-- Top Bar -->
+  <rect width="320"
+        height="24"
+        rx="10"
+        fill="#03233f"/>
+
+  <!-- Terminal Text -->
+  <text x="12" y="17"
+        fill="#00c8ff"
+        font-size="12"
+        font-family="monospace">
+    urshitaa@dev:~
+  </text>
+
+  <!-- Animated Typing Lines -->
+  <g fill="#66d9ff"
+     font-size="14"
+     font-family="monospace">
+
+    <text x="18" y="45">
+      > ML Engineer
+    </text>
+
+    <text x="18" y="65">
+      > Pythonista
+    </text>
+
+    <text x="18" y="85">
+      > Building cool things
+    </text>
+
+    <text x="18" y="105">
+      > Turning ideas into impact
+    </text>
+
+  </g>
+
+</g>
+
+
+<!-- RIGHT SIDE VERTICAL PROGRESS BAR -->
+<g transform="translate(560 310)">
+
+  <!-- Outer Bar -->
+  <rect x="0"
+        y="0"
+        width="30"
+        height="170"
+        rx="15"
+        fill="#02210f"
+        stroke="#00ff66"
+        stroke-width="2"/>
+
+  <!-- Animated Fill -->
+  <rect x="0"
+        y="170"
+        width="30"
+        height="0"
+        rx="15"
+        fill="#00ff66">
+
+    <animate attributeName="y"
+             values="170;17;170"
+             dur="6s"
+             repeatCount="indefinite"/>
+
+    <animate attributeName="height"
+             values="0;153;0"
+             dur="6s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Percentage Number -->
+  <text x="55"
+        y="90"
+        fill="#00ff66"
+        font-size="42"
+        font-family="Poppins"
+        font-weight="700">
+
+    0%
+
+    <animate attributeName="y"
+             values="140;90;140"
+             dur="6s"
+             repeatCount="indefinite"/>
+
+    <animate attributeName="opacity"
+             values="0.5;1;0.5"
+             dur="6s"
+             repeatCount="indefinite"/>
+  </text>
+
+</g>
