@@ -1,118 +1,81 @@
-<!-- RIGHT SIDE CYBER PANEL -->
-
-<g transform="translate(1060 120)">
-
-  <!-- Outer Card -->
-  <rect width="250"
-        height="280"
-        rx="20"
-        fill="#03141f"
-        stroke="#00ff88"
-        stroke-width="2"/>
-
-  <!-- Top Heading -->
-  <text x="30"
-        y="45"
-        fill="#00ff88"
-        font-size="28"
-        font-family="Arial"
-        font-weight="700">
-    SYSTEM STATUS
+<svg width="1400" height="500" viewBox="0 0 1400 500" xmlns="http://www.w3.org/2000/svg">
+<!--Background-->
+  <rect width="1400" height="500" fill="black"/>
+<!--Top Left Orb-->
+  <circle cx="40" cy="20" r="90" fill="#00ff66" fill-opacity="0.15" stroke="#00ff66" stroke-width="3"/>
+  <path d="M0 70 Q20 20 0 0" stroke="#00ff66" stroke-width="2" fill="none"/>
+  <path d="M40 50 Q30 0 0 -20" stroke="#00ff66" stroke-width="2" fill="none"/>
+<!--Left Side Text-->
+  <text x="70" y="110" fill="#00ff88" font-size="34" font-family="Arial" letter-spacing="4">
+    Hello World
   </text>
-
-  <!-- Divider -->
-  <line x1="25"
-        y1="65"
-        x2="220"
-        y2="65"
-        stroke="#00ff88"
-        stroke-width="1"/>
-
-  <!-- Status Items -->
-
-  <!-- AI -->
-  <circle cx="35" cy="100" r="7" fill="#00ff66">
-    <animate attributeName="opacity"
-             values="1;0.2;1"
-             dur="1s"
-             repeatCount="indefinite"/>
-  </circle>
-
-  <text x="55"
-        y="106"
-        fill="white"
-        font-size="18"
-        font-family="monospace">
-    AI CORE ACTIVE
+  <text x="70" y="210" fill="#00ff66" font-size="90" font-weight="700" font-family="Arial">
+    Urshitaa
   </text>
-
-  <!-- Neural -->
-  <circle cx="35" cy="145" r="7" fill="#00d9ff">
-    <animate attributeName="opacity"
-             values="1;0.2;1"
-             dur="1.5s"
-             repeatCount="indefinite"/>
-  </circle>
-
-  <text x="55"
-        y="151"
-        fill="white"
-        font-size="18"
-        font-family="monospace">
-    NEURAL ONLINE
+  <text x="75" y="280" fill="white" font-size="44" font-weight="700" font-family="Arial">
+    AI/ML ENGINEER
   </text>
-
-  <!-- Learning -->
-  <circle cx="35" cy="190" r="7" fill="#00ff66">
-    <animate attributeName="opacity"
-             values="1;0.2;1"
-             dur="0.8s"
-             repeatCount="indefinite"/>
-  </circle>
-
-  <text x="55"
-        y="196"
-        fill="white"
-        font-size="18"
-        font-family="monospace">
-    LEARNING MODE
+<!--Bottom Text-->
+  <text x="70" y="390" fill="#00ff88" font-size="28" font-family="Arial">
+    Building the future ...
   </text>
-
-  <!-- Deploy -->
-  <circle cx="35" cy="235" r="7" fill="#00d9ff">
-    <animate attributeName="opacity"
-             values="1;0.2;1"
-             dur="1.2s"
-             repeatCount="indefinite"/>
-  </circle>
-
-  <text x="55"
-        y="241"
-        fill="white"
-        font-size="18"
-        font-family="monospace">
-    DEPLOY READY
-  </text>
-
-  <!-- Bottom Energy Line -->
-  <rect x="25"
-        y="255"
-        width="190"
-        height="8"
-        rx="4"
-        fill="#012a1a"/>
-
-  <rect x="25"
-        y="255"
-        width="120"
-        height="8"
-        rx="4"
-        fill="#00ff88">
-
-    <animate attributeName="width"
-             values="40;190;40"
-             dur="3s"
-             repeatCount="indefinite"/>
+<!--Progress Bar-->
+<!--Background Bar-->
+  <rect x="70" y="420" width="420" height="24" rx="12" fill="#02210f" stroke="#00ff66" stroke-width="2"/>
+<!--Animated Fill-->
+  <rect x="70" y="420" width="0" height="24" rx="12" fill="#00ff66">
+    <animate attributeName="width" values="0;378;0" dur="4s" repeatCount="indefinite"/>
   </rect>
+<!--Animated Percentage Text-->
+  <text x="510" y="440" fill="#00ff66" font-size="28" font-family="Arial" font-weight="700">
 
-</g>
+  90%
+
+  <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite"/>
+
+
+
+</text>
+<!--Brain-->
+<!--CENTER AI CORE-->
+  <g transform="translate(760 250)">
+<!--Outer Ring-->
+    <circle r="70" fill="none" stroke="#00ff88" stroke-width="4" stroke-dasharray="10 10"/>
+<!--Inner Ring-->
+    <circle r="42" fill="none" stroke="#00ff88" stroke-width="2" opacity="0.7"/>
+<!--Core-->
+    <circle r="18" fill="#00ff66"/>
+<!--Orbit Dots-->
+    <circle cx="0" cy="-70" r="5" fill="#00ff88"/>
+    <circle cx="70" cy="0" r="5" fill="#00ff88"/>
+    <circle cx="0" cy="70" r="5" fill="#00ff88"/>
+    <circle cx="-70" cy="0" r="5" fill="#00ff88"/>
+  </g>
+<!--RIGHT HUD-->
+  <g transform="translate(980 70)">
+<!--Main Panel-->
+    <rect width="340" height="290" rx="24" fill="#03170f" stroke="#00ff88" stroke-width="2"/>
+<!--Heading-->
+    <text x="40" y="55" fill="#00ff88" font-size="30" font-family="Arial" font-weight="700">
+    WHAT I DO
+  </text>
+<!--Divider-->
+    <line x1="40" y1="75" x2="290" y2="75" stroke="#00ff88" stroke-width="2"/>
+<!--Skill 1-->
+    <text x="45" y="125" fill="white" font-size="22" font-family="Arial">
+    • Machine Learning
+  </text>
+<!--Skill 2-->
+    <text x="45" y="170" fill="white" font-size="22" font-family="Arial">
+    • Deep Learning
+  </text>
+<!--Skill 3-->
+    <text x="45" y="215" fill="white" font-size="22" font-family="Arial">
+    • Full Stack Dev
+  </text>
+<!--Skill 4-->
+    <text x="45" y="260" fill="white" font-size="22" font-family="Arial">
+    • Debugging Expert 😂
+  </text>
+  </g>
+</svg>
